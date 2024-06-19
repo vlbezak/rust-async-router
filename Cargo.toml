@@ -1,0 +1,9 @@
+[package]
+name = "rust-async-router"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+derive_more = { version ="0.99.17", features =["from", "display"]}
+futures = { version = "0.3.30"}
+tokio = {version = "1.37.0", features = ["full"]}
